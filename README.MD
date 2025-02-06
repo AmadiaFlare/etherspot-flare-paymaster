@@ -9,7 +9,7 @@ This repository demonstrates the integration of Etherspot's Prime SDK with Flare
 ### First, Etherspot Developer Account Setup
 
 1. Create a developer account at [Etherspot Developer Portal](https://developer.etherspot.io)
-2. Generate an API key
+2. Generate an API key and paste it in the example/payment.ts file as `apiKey` and `bundlerApiKey`
 3. Navigate to the "Paymaster" tab
 4. Top-up the Sponsor Address with CST2 using the [Coston2 faucet](https://coston2-faucet.flare.network)
 5. Ensure you are on the "V1" tab and click "Deploy Contract"
