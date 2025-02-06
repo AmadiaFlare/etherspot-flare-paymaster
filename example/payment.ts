@@ -8,8 +8,8 @@ dotenv.config();
 
 const recipient = "0x80a1874E1046B1cc5deFdf4D3153838B72fF94Ac"; // recipient wallet address
 const value = "0.01"; // transfer value
-const apiKey = "etherspot_3ZWQPdCQFhQaw4byFdvjN7ys"; // Only testnets are available, if you need further assistance in setting up a paymaster service for your dapp, please reach out to us on discord or https://etherspot.fyi/arka/intro
-const bundlerApiKey = "etherspot_3ZWQPdCQFhQaw4byFdvjN7ys";
+const apiKey = "your api key from etherspot"; // Only testnets are available, if you need further assistance in setting up a paymaster service for your dapp, please reach out to us on discord or https://etherspot.fyi/arka/intro
+const bundlerApiKey = "your api key from etherspot";
 
 async function main() {
   // initializating sdk...
@@ -74,3 +74,5 @@ async function main() {
 main()
   .catch(console.error)
   .finally(() => process.exit());
+
+  
